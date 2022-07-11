@@ -7,7 +7,8 @@ import json
 from pathlib import Path
 from campsitefinder import (
     ApiClient,
-    RecGovApi
+    RecGovApi,
+    RecGovConnectionError
 )
 
 class TestApiClient:
@@ -29,6 +30,20 @@ class TestRecGovApi:
         self.api = RecGovApi()
         logging.basicConfig(level=logging.INFO)        
     
+    # Recreation.gov uses CloudFront to serve content and will error with a 403 when a user-agent isn't present
+    def test_should_fail_on_missing_user_agent(self):
+        with requests_mock.Mocker() as mock:
+            mock.get(
+                "https://www.recreation.gov/api/camps/availability/campground/232368/month?start_date=2022-07-01T00%3A00%3A00.000Z",
+                json={}, 
+                status_code=403
+            )
+            with pytest.raises(RecGovConnectionError):
+                # wipe out the default_headers which contain a real user-agent
+                self.api.api_client.default_headers = {}
+                self.api.get_campground_availability(232368, "2022-07-01")
+    
+
     def test_get_campground_availability(self):
         response_value = self.read_json_data_file("campground-availability.json")
         with requests_mock.Mocker() as mock:

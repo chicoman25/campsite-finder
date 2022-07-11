@@ -47,12 +47,14 @@ class ApiClient:
         params = params,
         headers = self.headers
       )
-      json_response = response.json()
-      logger.debug("HTTP Response: %s", json_response)
-      return json_response
+      response.raise_for_status()
+      logger.debug("HTTP Response: %s", response)
+      return response
 
     except Exception as err:
         logger.debug("Exception in HTTP Response: %s - %s", response.status_code, response.content)
+        if response.status_code == 403:
+          raise RecGovConnectionError(f"Forbidden url: {url}") from err
 
 
 class RecGovApi:
@@ -65,8 +67,12 @@ class RecGovApi:
 
   def get_campground_availability(self, campground_id: int, start_month: string):
     url = f"{self.campground_availability_url}/{campground_id}/month?start_date={start_month}T00%3A00%3A00.000Z"
-    return self.api_client.get(url)
+    return self.api_client.get(url).json()
 
   def get_campsite(self, campsite_id):
     url = f"{self.campsite_url}/{campsite_id}"
-    return self.api_client.get(url)
+    return self.api_client.get(url).json()
+
+
+class RecGovConnectionError(Exception):
+    """Raised when communication ended in error."""
