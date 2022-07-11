@@ -1,0 +1,328 @@
+{
+  "comment": "https://www.recreation.gov/api/camps/campsites/22956",
+  "campsite": {
+    "amenities": [
+      {
+        "attribute_code": "accessibility",
+        "attribute_id": 1,
+        "attribute_name": "Accessibility",
+        "attribute_value": "Y",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "map_x",
+        "attribute_id": 300,
+        "attribute_name": "Map X Coordinate",
+        "attribute_value": "825.34",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "map_y",
+        "attribute_id": 301,
+        "attribute_name": "Map Y Coordinate",
+        "attribute_value": "314.61",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "is_on_map",
+        "attribute_id": 314,
+        "attribute_name": "Placed on Map",
+        "attribute_value": "1",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "campsite_reserve_type",
+        "attribute_id": 83,
+        "attribute_name": "Site Reserve Type",
+        "attribute_value": "Site-Specific",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "max_vehicle_length",
+        "attribute_id": 54,
+        "attribute_name": "Max Vehicle Length",
+        "attribute_value": "40",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "accessibility",
+        "attribute_id": 1,
+        "attribute_name": "Accessibility",
+        "attribute_value": "Y",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "max_num_people",
+        "attribute_id": 52,
+        "attribute_name": "Max Num of People",
+        "attribute_value": "8",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "driveway_surface",
+        "attribute_id": 26,
+        "attribute_name": "Driveway Surface",
+        "attribute_value": "Gravel",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "map_x",
+        "attribute_id": 300,
+        "attribute_name": "Map X Coordinate",
+        "attribute_value": "825.34",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "driveway_entry",
+        "attribute_id": 23,
+        "attribute_name": "Driveway Entry",
+        "attribute_value": "Back-In",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "min_num_people",
+        "attribute_id": 56,
+        "attribute_name": "Min Num of People",
+        "attribute_value": "1",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "map_y",
+        "attribute_id": 301,
+        "attribute_name": "Map Y Coordinate",
+        "attribute_value": "314.61",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "max_num_vehicles",
+        "attribute_id": 53,
+        "attribute_name": "Max Num of Vehicles",
+        "attribute_value": "2",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "pets_allowed",
+        "attribute_id": 65,
+        "attribute_name": "Pets Allowed",
+        "attribute_value": "Domestic",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "is_on_map",
+        "attribute_id": 314,
+        "attribute_name": "Placed on Map",
+        "attribute_value": "1",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "checkin_time",
+        "attribute_id": 11,
+        "attribute_name": "Checkin Time",
+        "attribute_value": "2:00 PM",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "driveway_length",
+        "attribute_id": 25,
+        "attribute_name": "Driveway Length",
+        "attribute_value": "40",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "checkout_time",
+        "attribute_id": 12,
+        "attribute_name": "Checkout Time",
+        "attribute_value": "1:00 PM",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      {
+        "attribute_code": "capacity_rating",
+        "attribute_id": 10,
+        "attribute_name": "Capacity/Size Rating",
+        "attribute_value": "Single",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      }
+    ],
+    "campsite_id": "22956",
+    "campsite_latitude": 40.1320701921311,
+    "campsite_longitude": -105.506081257965,
+    "campsite_name": "003",
+    "campsite_name_change": {
+      "campsite_name": "",
+      "created_by": "",
+      "created_date": "0001-01-01T00:00:00Z",
+      "loop": "",
+      "until": "0001-01-01T00:00:00Z"
+    },
+    "campsite_reserve_type": "Site-Specific",
+    "campsite_status": "Open",
+    "campsite_type": "STANDARD NONELECTRIC",
+    "created_by": "",
+    "created_date": "2014-05-02T00:00:00Z",
+    "equipment_details_map": {
+      "driveway_entry": {
+        "attribute_code": "driveway_entry",
+        "attribute_id": 23,
+        "attribute_name": "Driveway Entry",
+        "attribute_value": "Back-In",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "driveway_length": {
+        "attribute_code": "driveway_length",
+        "attribute_id": 25,
+        "attribute_name": "Driveway Length",
+        "attribute_value": "40",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "driveway_surface": {
+        "attribute_code": "driveway_surface",
+        "attribute_id": 26,
+        "attribute_name": "Driveway Surface",
+        "attribute_value": "Gravel",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "is_equip_mandatory": {
+        "attribute_code": "is_equip_mandatory",
+        "attribute_name": "Is Equipment Mandatory",
+        "attribute_value": "true",
+        "created_date": "0001-01-01T00:00:00Z",
+        "updated_date": "0001-01-01T00:00:00Z"
+      },
+      "max_num_vehicles": {
+        "attribute_code": "max_num_vehicles",
+        "attribute_id": 53,
+        "attribute_name": "Max Num of Vehicles",
+        "attribute_value": "2",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "max_vehicle_length": {
+        "attribute_code": "max_vehicle_length",
+        "attribute_id": 54,
+        "attribute_name": "Max Vehicle Length",
+        "attribute_value": "40",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      }
+    },
+    "facility_id": "232368",
+    "fee_templates": {
+      "Off Peak": "Off PeakSTANDARD NONELECTRIC",
+      "Peak": "PeakSTANDARD NONELECTRIC",
+      "Transition": "TransitionSTANDARD NONELECTRIC",
+      "Walk In": "Walk InSTANDARD NONELECTRIC"
+    },
+    "field_latitude": 0,
+    "field_longitude": 0,
+    "is_accessible": true,
+    "is_deactivated": false,
+    "legacy_id": "17801",
+    "loop": "PEAC",
+    "permitted_equipment": [
+      {
+        "campsite_equipment_type_id": 3,
+        "created_date": "2018-06-26T14:18:35.839Z",
+        "equipment_name": "Trailer",
+        "is_deactivated": false,
+        "max_length": 40,
+        "updated_date": "2018-06-26T14:18:35.839Z"
+      },
+      {
+        "campsite_equipment_type_id": 1,
+        "created_date": "2018-06-26T14:18:35.839Z",
+        "equipment_name": "Tent",
+        "is_deactivated": false,
+        "max_length": 40,
+        "updated_date": "2018-06-26T14:18:35.839Z"
+      },
+      {
+        "campsite_equipment_type_id": 2,
+        "created_date": "2018-06-26T14:18:35.839Z",
+        "equipment_name": "RV",
+        "is_deactivated": false,
+        "max_length": 40,
+        "updated_date": "2018-06-26T14:18:35.839Z"
+      }
+    ],
+    "position_date": "0001-01-01T00:00:00Z",
+    "recurring_closures": [],
+    "site_details_map": {
+      "capacity_rating": {
+        "attribute_code": "capacity_rating",
+        "attribute_id": 10,
+        "attribute_name": "Capacity/Size Rating",
+        "attribute_value": "Single",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "checkin_time": {
+        "attribute_code": "checkin_time",
+        "attribute_id": 11,
+        "attribute_name": "Checkin Time",
+        "attribute_value": "2:00 PM",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "checkout_time": {
+        "attribute_code": "checkout_time",
+        "attribute_id": 12,
+        "attribute_name": "Checkout Time",
+        "attribute_value": "1:00 PM",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "max_num_people": {
+        "attribute_code": "max_num_people",
+        "attribute_id": 52,
+        "attribute_name": "Max Num of People",
+        "attribute_value": "8",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "min_num_people": {
+        "attribute_code": "min_num_people",
+        "attribute_id": 56,
+        "attribute_name": "Min Num of People",
+        "attribute_value": "1",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      },
+      "pets_allowed": {
+        "attribute_code": "pets_allowed",
+        "attribute_id": 65,
+        "attribute_name": "Pets Allowed",
+        "attribute_value": "Yes",
+        "created_date": "2018-06-26T14:15:49.025Z",
+        "updated_date": "2018-06-26T14:15:49.025Z"
+      }
+    },
+    "type_of_use": "Overnight",
+    "updated_by": "",
+    "updated_date": "2020-10-15T10:45:06.536260122Z"
+  }
+}
