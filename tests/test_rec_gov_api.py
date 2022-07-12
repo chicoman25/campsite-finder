@@ -55,7 +55,18 @@ class TestRecGovApi:
             response = self.api.get_campground_availability(232368, "2022-07-01")
             assert response['count'] == len(response['campsites'])
 
-    
+    def test_get_campground(self):
+        response_value = self.read_json_data_file("campground.json")
+        with requests_mock.Mocker() as mock:
+            mock.get(
+                "https://www.recreation.gov/api/camps/campgrounds/232368",
+                json=response_value, 
+                status_code=200
+            )
+            campground_id = 232368
+            response = self.api.get_campground(campground_id)
+            assert response['campground']['facility_id'] == str(campground_id)
+
     def test_get_campsite(self):
         response_value = self.read_json_data_file("campsite.json")
         with requests_mock.Mocker() as mock:

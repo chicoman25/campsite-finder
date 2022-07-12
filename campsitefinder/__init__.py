@@ -37,9 +37,8 @@ class ApiClient:
     return path
 
   def get(self, addurl, params = None):
-    """Make an API call using the GET method."""
+    """Call the API using HTTP GET method."""
     url = self.url(addurl)
-
     try:
       logger.debug("Making GET request to URL: %s", url)
       response = requests.get(
@@ -63,16 +62,35 @@ class RecGovApi:
     self.base_url = "www.recreation.gov/api"
     self.campground_availability_url = "camps/availability/campground"
     self.campsite_url = "camps/campsites"
+    self.campground_url = "camps/campgrounds"
+
     self.api_client = ApiClient(self.base_url)
 
   def get_campground_availability(self, campground_id: int, start_month: string):
     url = f"{self.campground_availability_url}/{campground_id}/month?start_date={start_month}T00%3A00%3A00.000Z"
     return self.api_client.get(url).json()
 
-  def get_campsite(self, campsite_id):
+  def get_campsite(self, campsite_id: int):
+    """
+    Looks up a specific campsite
+    Arguments:
+      campsite_id: an integer
+    Returns: 
+      JSON data 
+    """
     url = f"{self.campsite_url}/{campsite_id}"
     return self.api_client.get(url).json()
 
+  def get_campground(self, campground_id: int):
+    """
+    Looks up a specific campgroud
+    Arguments:
+      campground_id: an integer
+    Returns: 
+      JSON data 
+    """
+    url = f"{self.campground_url}/{campground_id}"
+    return self.api_client.get(url).json()
 
 class RecGovConnectionError(Exception):
     """Raised when communication ended in error."""
